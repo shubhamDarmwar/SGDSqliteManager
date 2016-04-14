@@ -15,6 +15,8 @@
 		4859DEEF1CBE878500E8ABC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4859DEED1CBE878500E8ABC7 /* LaunchScreen.storyboard */; };
 		4859DEFA1CBE878500E8ABC7 /* SqliteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4859DEF91CBE878500E8ABC7 /* SqliteDemoTests.m */; };
 		4859DF051CBE878500E8ABC7 /* SqliteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4859DF041CBE878500E8ABC7 /* SqliteDemoUITests.m */; };
+		4859DF151CBE881100E8ABC7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4859DF141CBE881100E8ABC7 /* libsqlite3.tbd */; };
+		48DDEFCE1CBF623500098AC6 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DDEFCD1CBF623500098AC6 /* DBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		4859DF001CBE878500E8ABC7 /* SqliteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4859DF041CBE878500E8ABC7 /* SqliteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteDemoUITests.m; sourceTree = "<group>"; };
 		4859DF061CBE878500E8ABC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4859DF141CBE881100E8ABC7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		48DDEFCC1CBF623500098AC6 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		48DDEFCD1CBF623500098AC6 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4859DF151CBE881100E8ABC7 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		4859DED31CBE878500E8ABC7 = {
 			isa = PBXGroup;
 			children = (
+				4859DF141CBE881100E8ABC7 /* libsqlite3.tbd */,
 				4859DEDE1CBE878500E8ABC7 /* SqliteDemo */,
 				4859DEF81CBE878500E8ABC7 /* SqliteDemoTests */,
 				4859DF031CBE878500E8ABC7 /* SqliteDemoUITests */,
@@ -105,6 +112,8 @@
 				4859DEE31CBE878500E8ABC7 /* AppDelegate.m */,
 				4859DEE51CBE878500E8ABC7 /* ViewController.h */,
 				4859DEE61CBE878500E8ABC7 /* ViewController.m */,
+				48DDEFCC1CBF623500098AC6 /* DBManager.h */,
+				48DDEFCD1CBF623500098AC6 /* DBManager.m */,
 				4859DEE81CBE878500E8ABC7 /* Main.storyboard */,
 				4859DEEB1CBE878500E8ABC7 /* Assets.xcassets */,
 				4859DEED1CBE878500E8ABC7 /* LaunchScreen.storyboard */,
@@ -273,6 +282,7 @@
 				4859DEE71CBE878500E8ABC7 /* ViewController.m in Sources */,
 				4859DEE41CBE878500E8ABC7 /* AppDelegate.m in Sources */,
 				4859DEE11CBE878500E8ABC7 /* main.m in Sources */,
+				48DDEFCE1CBF623500098AC6 /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +506,7 @@
 				4859DF0B1CBE878500E8ABC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4859DF0C1CBE878500E8ABC7 /* Build configuration list for PBXNativeTarget "SqliteDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				4859DF0E1CBE878500E8ABC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4859DF0F1CBE878500E8ABC7 /* Build configuration list for PBXNativeTarget "SqliteDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				4859DF111CBE878500E8ABC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
